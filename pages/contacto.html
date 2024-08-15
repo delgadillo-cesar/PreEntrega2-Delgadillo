@@ -11,39 +11,45 @@
 <body>
     
     <!--Header-->
-    <header>
-        <div>
-            <img src="../img/terra.png" width="100px" height="80px" class="logo" alt="terra">
-        </div>
-        <nav>
-            <a href="/index.html">Inicio</a>
-            <a href="/pages/nosotros.html">Nosotros</a>
-            <a href="/pages/productos.html">Productos</a>
-            <a href="/pages/talleres.html">Talleres</a>
-            <a href="/pages/contacto.html">Contacto</a>
-            <a href="">Carrito</a>
-        </nav>
+    <header class="header-container">
+        <main class="header-main">
+            <div>
+                <a href="../index.html">
+                    <img src="../img/terra.png" width="100px" height="80px" class="logo" alt="terra">
+                </a>
+            </div>
+            <nav class="nav-container">
+                <a href="../index.html">Inicio</a>
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./productos.html">Productos</a>
+                <a href="./talleres.html">Talleres</a>
+                <a href="./contacto.html">Contacto</a>
+                <a href="">Carrito</a>
+            </nav>
+        </main>
     </header>
 
     <!--Menu-->
-    <main class="historia">
-        <div>
-            <h1>Contacto</h1>
-            <p>¿Necesitas hacer una consulta?</p>
-            <p>Escribinos ¡Nos encantara charlar con vos! </p><br>
-            <p>Wapp: 1123456789</p><br>
-            <p>Email: email@ejemplo.com</p><br>
-            <p>Dirrección 12345</p><br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2511156158594!2d-58.50098652357094!3d-34.5978110729563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb72cf1cd11f9%3A0x57d34ad8310be050!2sAv.%20Francisco%20Beir%C3%B3%203324%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1721347956908!5m2!1ses-419!2sar" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Tel">
-            <input type="text" placeholder="Mensaje">
-            <button>Enviar</button>
-        </div>
-    </main>
+    <section class="main">
+        <main class="historia">
+            <div>
+                <h1>Contacto</h1>
+                <p>¿Necesitas hacer una consulta?</p>
+                <p>Escribinos ¡Nos encantara charlar con vos! </p><br>
+                <p>Wapp: 1123456789</p><br>
+                <p>Email: email@ejemplo.com</p><br>
+                <p>Dirrección 12345</p><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2511156158594!2d-58.50098652357094!3d-34.5978110729563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb72cf1cd11f9%3A0x57d34ad8310be050!2sAv.%20Francisco%20Beir%C3%B3%203324%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1721347956908!5m2!1ses-419!2sar" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Tel">
+                <input type="text" placeholder="Mensaje">
+                <button>Enviar</button>
+            </div>
+        </main>
+    </section>
 
     <!--Footer-->
     <footer>
@@ -51,24 +57,24 @@
             <h3 class="ifoF">Info útil</h3>
             <ol class="ifoF">
                 <li class="ifoF">
-                    <a href="" class="ifoF">Como comprar</a>
+                    <a href="./contacto.html" class="ifoF">Como comprar</a>
                 </li>
                 <li class="ifoF">
-                    <a href="" class="ifoF">Productos</a>
+                    <a href="./productos.html" class="ifoF">Productos</a>
                 </li>
                 <li class="ifoF">
-                    <a href="" class="ifoF">Talleres</a>
+                    <a href="./talleres.html" class="ifoF">Talleres</a>
                 </li>
                 <li class="ifoF">
-                    <a href="" class="ifoF">Comntacto</a>
+                    <a href="./contacto.html" class="ifoF">Comntacto</a>
                 </li>
             </ol>
         </div>
-        <div class="redes">
-            <div class="ifoF icon">Instagram</div>
-            <div class="ifoF icon">Tik Tok</div>
-            <div class="ifoF icon">Facebook</div>
-            <div class="ifoF icon">YouTube</div>
+        <div class="redes-container">
+            <div class="ifoF">Instagram</div>
+            <div class="ifoF">Tik Tok</div>
+            <div class="ifoF">Facebook</div>
+            <div class="ifoF">YouTube</div>
         </div>
     </footer>
 

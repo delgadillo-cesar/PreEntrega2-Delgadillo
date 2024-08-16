@@ -179,7 +179,20 @@ a:link {
 /* Fin Footer */
  
 
+.container__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container__main--section {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
@@ -194,12 +207,6 @@ a:link {
     flex-wrap: wrap;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
-}
 
 .productos {
     display: flex;
@@ -210,20 +217,6 @@ a:link {
     padding: 20px;
 }
 
-.descripción{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-}
-
-.nosotros-img {
-    display: flex;
-}
-
-.separar {
-    flex-direction: column;
-    gap: 40px;
-}
 
 .form{
     flex-direction: column;

@@ -1,0 +1,35 @@
+
+.container__footer {
+    background: $color-primary;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    .container__ifo--util {
+        background: $color-primary;
+    }
+    .ifoF {
+        background: $color-primary;
+        text-decoration: none;
+        cursor: pointer;    
+        color: $font-color;
+      
+    }
+    .redes-container{
+        display: flex;
+        gap: 20px;
+        background: $color-primary;
+    }
+}
+
+.ifoF__text--color{
+    color: $font-color;
+
+}
+.icon__bg{
+    background-color: $color-primary;
+}
+

@@ -1,0 +1,177 @@
+
+//Contecto wpp
+
+@media only screen and (max-width: 992px) {
+    .contact__wpp--positio{
+        position: fixed;
+        bottom: 70px;
+        right: 80px;
+    }
+}
+@media only screen and (max-width: 786px) {
+    .contact__wpp--positio{
+        position: fixed;
+        bottom: 40px;
+        right: 80px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .contact__wpp--positio{
+        position: fixed;
+        bottom: 60px;
+        right: 40px;
+    }
+}
+
+
+//Productos Container
+
+@media only screen and (max-width: 992px){
+    .grid__productos--container {
+        display: grid;
+        grid-template-columns: repeat(4, fr);
+        gap: 30px;
+        padding: 10px 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid__productos--container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 10px 50px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .grid__productos--container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;  
+        padding: 10px 50px;
+    }
+}
+
+
+//Container footer
+
+@media only screen and (max-width: 576px){
+    .container__footer {
+        background: #A79696;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+//Container index main
+
+@media only screen and (max-width: 768px) {
+    .container__main--section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        font-style: italic;
+    }
+}
+
+//Main Nosotros
+
+@media only screen and (max-width: 786px){
+    .container__main--section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 786;
+        justify-content: center;
+        align-items: center;
+        padding: 40px   ;
+        gap: 40px;
+    
+        .container__text{   
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }   
+}
+
+//Talleres
+
+@media only screen and (max-width: 992px){
+    .container__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .container__grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
+
+//Contacto
+
+@media only screen and (max-width: 992px){
+    .container__contacto{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 786px){
+    .container__contacto{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        gap: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .container__contacto{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        gap: 20px;
+    }
+}

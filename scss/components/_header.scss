@@ -1,0 +1,19 @@
+.header__flex {
+    display: flex;
+    justify-content: end;
+}
+
+.header__container--color {
+    background: #fefefe;
+}
+
+.logo {
+    display: flex;
+    background: #fefefe;
+    cursor: pointer;
+}
+
+.nav__a--link:hover{
+    border-bottom: 0.5px solid #000;   
+    transition: border-bottom 0.2s ease-in-out;
+}

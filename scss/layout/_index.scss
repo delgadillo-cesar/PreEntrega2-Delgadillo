@@ -1,0 +1,17 @@
+
+.img__principal {
+    display: flex;
+    width: 100%;
+}
+
+
+.descripción__container{
+    display: flex;
+    justify-content: center;
+    .descripción__container--p {
+        width: 80%;
+        font-style: italic;
+        padding: 40px 10px;
+    }   
+}
+

@@ -1,0 +1,47 @@
+*{
+    color: $font-color;
+    font-family: $main-font;
+    margin: 0;
+    padding: 0;
+    background: $color-bg;
+    list-style-type: none;
+    a:link {
+        color: $font-color;
+        text-decoration: none;
+    }
+}
+
+
+// Container wapp
+.container__contact--wp{
+    padding: 8px;
+    background: #01E776;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 80px;
+
+    .bg__svg{
+        background: #01E776;
+    }
+}
+
+.transformacion__img :hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hg :hover  {
+    transform: scale(1.5);
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
